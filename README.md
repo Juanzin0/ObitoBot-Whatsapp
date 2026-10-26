@@ -72,7 +72,7 @@ O **ObitoBot** é um bot de WhatsApp focado em **economia, trabalho e interaçã
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/obitobot.git
+git clone https://github.com/juanzin0/obitobot.git
 cd obitobot
 
 # Instale as dependências
