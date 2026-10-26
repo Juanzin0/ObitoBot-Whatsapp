@@ -1,0 +1,245 @@
+#!/usr/bin/env node
+/**
+ * ============================================================
+ *  OBITOBOT - START (dev mode)
+ * ============================================================
+ *  - Mostra banner bonito
+ *  - Loga mensagens de PV
+ *  - Loga comandos com hora + pushName
+ *  - Auto-restart ao detectar mudanças
+ * ============================================================
+ */
+
+const { spawn } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+
+// ===== CONFIG =====
+const SCRIPT_PRINCIPAL = 'index.js';
+const PASTA_OBSERVAR = 'src';
+const ARQUIVOS_RAIZ = ['index.js'];
+const DEBOUNCE_MS = 500;
+
+// ===== CORES ANSI =====
+const C = {
+  reset: '\x1b[0m',
+  bold: '\x1b[1m',
+  dim: '\x1b[2m',
+  red: '\x1b[31m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m',
+  cyan: '\x1b[36m',
+  white: '\x1b[37m',
+  bgBlue: '\x1b[44m',
+};
+
+// ===== BANNER =====
+function banner() {
+  console.clear();
+  console.log('');
+  console.log(`${C.magenta}${C.bold}  ┌──────────────────────────────────────────────────┐${C.reset}`);
+  console.log(`${C.magenta}${C.bold}  │${C.reset}  ${C.cyan}${C.bold}🌑  O B I T O B O T  🌑${C.reset}                        ${C.magenta}${C.bold}│${C.reset}`);
+  console.log(`${C.magenta}${C.bold}  │${C.reset}  ${C.dim}WhatsApp Bot • Baileys${C.reset}                       ${C.magenta}${C.bold}│${C.reset}`);
+  console.log(`${C.magenta}${C.bold}  └──────────────────────────────────────────────────┘${C.reset}`);
+  console.log('');
+  console.log(`  ${C.yellow}⚡${C.reset}  ${C.bold}Modo:${C.reset}     ${C.green}DEV${C.reset} ${C.dim}(auto-restart ON)${C.reset}`);
+  console.log(`  ${C.yellow}👀${C.reset}  ${C.bold}Observando:${C.reset} ${C.cyan}${PASTA_OBSERVAR}/${C.reset} + ${C.cyan}${ARQUIVOS_RAIZ.join(', ')}${C.reset}`);
+  console.log(`  ${C.yellow}📅${C.reset}  ${C.bold}Iniciado:${C.reset}  ${new Date().toLocaleString('pt-BR')}`);
+  console.log('');
+  console.log(`${C.dim}  ────────────────────────────────────────────────────${C.reset}`);
+  console.log('');
+}
+
+// ===== LOG DE EVENTOS DO BOT =====
+function logInfo(msg) {
+  const hora = new Date().toLocaleTimeString('pt-BR');
+  console.log(`${C.dim}[${hora}]${C.reset} ${C.cyan}ℹ${C.reset}  ${msg}`);
+}
+
+function logErro(msg) {
+  const hora = new Date().toLocaleTimeString('pt-BR');
+  console.log(`${C.dim}[${hora}]${C.reset} ${C.red}✖${C.reset}  ${msg}`);
+}
+
+function logSucesso(msg) {
+  const hora = new Date().toLocaleTimeString('pt-BR');
+  console.log(`${C.dim}[${hora}]${C.reset} ${C.green}✔${C.reset}  ${msg}`);
+}
+
+function logRestart(msg) {
+  const hora = new Date().toLocaleTimeString('pt-BR');
+  console.log(`${C.dim}[${hora}]${C.reset} ${C.yellow}♻${C.reset}  ${msg}`);
+}
+
+function logSeparador() {
+  console.log(`${C.dim}  ────────────────────────────────────────────────────${C.reset}`);
+}
+
+// ===== PROCESSO FILHO (o bot em si) =====
+let processo = null;
+
+function iniciarBot() {
+  banner();
+  logInfo(`Iniciando ${SCRIPT_PRINCIPAL}...`);
+  logSeparador();
+
+  processo = spawn('node', [SCRIPT_PRINCIPAL], {
+    stdio: ['inherit', 'pipe', 'pipe'],
+    cwd: __dirname,
+  });
+
+  // ===== PIPE stdout =====
+  processo.stdout.on('data', (data) => {
+    const linhas = data.toString().split('\n').filter(l => l.trim());
+    for (const linha of linhas) {
+      processarLog(linha);
+    }
+  });
+
+  // ===== PIPE stderr =====
+  processo.stderr.on('data', (data) => {
+    const linhas = data.toString().split('\n').filter(l => l.trim());
+    for (const linha of linhas) {
+      logErro(linha);
+    }
+  });
+
+  // ===== FIM DO PROCESSO =====
+  processo.on('exit', (code) => {
+    if (code === 0 || code === null) {
+      logInfo('Bot finalizado normalmente.');
+    } else {
+      logErro(`Bot saiu com código ${code}.`);
+    }
+  });
+}
+
+// ===== INTERPRETA E FORMATA OS LOGS DO BOT =====
+function processarLog(linha) {
+  // Detecta padrões e formata
+
+  // Log de mensagem recebida
+  if (linha.includes('MSG') || linha.includes('mensagem')) {
+    logInfo(linha);
+    return;
+  }
+
+  // Log de comando executado (padrão: 🌑 NomeDoComando)
+  if (linha.startsWith('🌑')) {
+    const texto = linha.replace('🌑', '').trim();
+    const hora = new Date().toLocaleTimeString('pt-BR');
+    console.log(`${C.dim}[${hora}]${C.reset} ${C.magenta}🌑${C.reset}  ${texto}`);
+    return;
+  }
+
+  // Log de conexão
+  if (linha.includes('conectado') || linha.includes('Conectado')) {
+    logSucesso(linha);
+    return;
+  }
+  if (linha.includes('QR') || linha.includes('qr')) {
+    console.log(`${C.yellow}${linha}${C.reset}`);
+    return;
+  }
+  if (linha.includes('Erro') || linha.includes('erro')) {
+    logErro(linha);
+    return;
+  }
+
+  // Padrão
+  console.log(linha);
+}
+
+// ===== WATCHER (auto-restart) =====
+let timeout = null;
+
+function reiniciar() {
+  clearTimeout(timeout);
+  timeout = setTimeout(() => {
+    logRestart('Mudança detectada! Reiniciando...');
+    logSeparador();
+
+    if (processo) {
+      processo.removeAllListeners('exit');
+      processo.kill('SIGTERM');
+    }
+
+    setTimeout(() => {
+      iniciarBot();
+    }, 300);
+  }, DEBOUNCE_MS);
+}
+
+function observar(dir) {
+  if (!fs.existsSync(dir)) return;
+
+  const stats = fs.statSync(dir);
+  if (stats.isDirectory()) {
+    const arquivos = fs.readdirSync(dir);
+    for (const arq of arquivos) {
+      observar(path.join(dir, arq));
+    }
+  } else if (dir.endsWith('.js')) {
+    fs.watch(dir, { persistent: true }, (evento) => {
+      if (evento === 'change' || evento === 'rename') {
+        reiniciar();
+      }
+    });
+  }
+}
+
+// ===== OBSERVA ARQUIVOS DA RAIZ =====
+function observarRaiz() {
+  for (const arq of ARQUIVOS_RAIZ) {
+    const caminho = path.join(__dirname, arq);
+    if (fs.existsSync(caminho)) {
+      fs.watch(caminho, { persistent: true }, (evento) => {
+        if (evento === 'change') {
+          reiniciar();
+        }
+      });
+    }
+  }
+}
+
+// ===== OBSERVA MUDANÇAS EM PASTAS NOVAS =====
+function observarRecursivo() {
+  const pasta = path.join(__dirname, PASTA_OBSERVAR);
+  if (!fs.existsSync(pasta)) {
+    logErro(`Pasta ${PASTA_OBSERVAR} não existe.`);
+    return;
+  }
+  observar(pasta);
+}
+
+// ===== INICIA =====
+function main() {
+  banner();
+
+  // Inicia o bot
+  iniciarBot();
+
+  // Observa arquivos
+  observarRecursivo();
+  observarRaiz();
+
+  logInfo(`${C.green}Watcher ativo.${C.reset} Salve um arquivo pra reiniciar.`);
+  logSeparador();
+}
+
+// ===== MATA O FILHO QUANDO O PAI MORRER =====
+process.on('SIGINT', () => {
+  console.log('\n');
+  logInfo('Encerrando...');
+  if (processo) processo.kill('SIGTERM');
+  process.exit(0);
+});
+
+process.on('SIGTERM', () => {
+  if (processo) processo.kill('SIGTERM');
+  process.exit(0);
+});
+
+main();

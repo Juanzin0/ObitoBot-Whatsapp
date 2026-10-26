@@ -1,0 +1,1147 @@
+{
+  "558296293633@s.whatsapp.net": {
+    "jid": "558296293633@s.whatsapp.net",
+    "aliases": [
+      "123454858727514@lid",
+      "120363424105051833@g.us",
+      "5582996293633@s.whatsapp.net",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 8067.8985473,
+    "banco": 5700,
+    "rg": "708-734",
+    "senha": "2026",
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 1000,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 1790576249162,
+        "diasConsecutivos": 1
+      },
+      "semanal": {
+        "ultimoUso": 1790307496099
+      },
+      "mensal": {
+        "ultimoUso": 1790307490957
+      }
+    },
+    "ultimoTrabalho": 1790629896102,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-28",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-28",
+    "nivelCarreira": 2,
+    "progressoCarreira": 1021,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 77,
+    "totalComandos": 28,
+    "nome": "☆Juan☆",
+    "mineracao": {
+      "quantidade": 1,
+      "resetTime": 1790523789375
+    },
+    "profissaoIndex": 6,
+    "trabalhosHoje": 3,
+    "dataTrabalho": "2026-9-28",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0,
+    "streakMensagem": 1,
+    "ultimaMensagemDia": "2026-9-28",
+    "grupos": {}
+  },
+  "123454858727514@lid": {
+    "jid": "558296293633@s.whatsapp.net",
+    "aliases": [
+      "123454858727514@lid",
+      "120363424105051833@g.us",
+      "5582996293633@s.whatsapp.net",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 8067.8985473,
+    "banco": 5700,
+    "rg": "708-734",
+    "senha": "2026",
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 1000,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 1790576249162,
+        "diasConsecutivos": 1
+      },
+      "semanal": {
+        "ultimoUso": 1790307496099
+      },
+      "mensal": {
+        "ultimoUso": 1790307490957
+      }
+    },
+    "ultimoTrabalho": 1790629896102,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-28",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-28",
+    "nivelCarreira": 2,
+    "progressoCarreira": 1021,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 77,
+    "totalComandos": 28,
+    "nome": "☆Juan☆",
+    "mineracao": {
+      "quantidade": 1,
+      "resetTime": 1790523789375
+    },
+    "profissaoIndex": 6,
+    "trabalhosHoje": 3,
+    "dataTrabalho": "2026-9-28",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0,
+    "streakMensagem": 1,
+    "ultimaMensagemDia": "2026-9-28",
+    "grupos": {}
+  },
+  "120363424105051833@g.us": {
+    "jid": "558296293633@s.whatsapp.net",
+    "aliases": [
+      "123454858727514@lid",
+      "120363424105051833@g.us",
+      "5582996293633@s.whatsapp.net",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 8067.8985473,
+    "banco": 5700,
+    "rg": "708-734",
+    "senha": "2026",
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 1000,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 1790576249162,
+        "diasConsecutivos": 1
+      },
+      "semanal": {
+        "ultimoUso": 1790307496099
+      },
+      "mensal": {
+        "ultimoUso": 1790307490957
+      }
+    },
+    "ultimoTrabalho": 1790629896102,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-28",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-28",
+    "nivelCarreira": 2,
+    "progressoCarreira": 1021,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 77,
+    "totalComandos": 28,
+    "nome": "☆Juan☆",
+    "mineracao": {
+      "quantidade": 1,
+      "resetTime": 1790523789375
+    },
+    "profissaoIndex": 6,
+    "trabalhosHoje": 3,
+    "dataTrabalho": "2026-9-28",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0,
+    "streakMensagem": 1,
+    "ultimaMensagemDia": "2026-9-28",
+    "grupos": {}
+  },
+  "127896274366703@lid": {
+    "jid": "127896274366703@lid",
+    "aliases": [],
+    "carteira": 3934,
+    "banco": 0,
+    "rg": "449-178",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 1790516162102,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-24",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-24",
+    "nivelCarreira": 1,
+    "progressoCarreira": 601,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [
+      {
+        "id": "mufgtqequg8uf",
+        "credor": "558296293633@s.whatsapp.net",
+        "devedor": "127896274366703@lid",
+        "valor": 90,
+        "juros": 90,
+        "totalPagar": 171,
+        "dataEmprestimo": 1790250333938,
+        "prazo": 3,
+        "pago": false,
+        "expirado": false
+      },
+      {
+        "id": "mufh9xdugnrxk",
+        "credor": "558296293633@s.whatsapp.net",
+        "devedor": "127896274366703@lid",
+        "valor": 1,
+        "juros": 1,
+        "totalPagar": 1,
+        "dataEmprestimo": 1790251089474,
+        "prazo": 3,
+        "pago": false,
+        "expirado": false
+      },
+      {
+        "id": "mufhdhnez9ahp",
+        "credor": "558296293633@s.whatsapp.net",
+        "devedor": "127896274366703@lid",
+        "valor": 1,
+        "juros": 1,
+        "totalPagar": 1,
+        "dataEmprestimo": 1790251255706,
+        "prazo": 3,
+        "pago": false,
+        "expirado": false
+      },
+      {
+        "id": "muhmai1oxv7am",
+        "credor": "558296293633@s.whatsapp.net",
+        "devedor": "127896274366703@lid",
+        "valor": 1000000000000,
+        "juros": 20,
+        "totalPagar": 1200000000000,
+        "dataEmprestimo": 1790380446684,
+        "prazo": 3,
+        "pago": false,
+        "expirado": false
+      }
+    ],
+    "totalMensagens": 3,
+    "totalComandos": 0,
+    "nome": "Peterson",
+    "mineracao": {
+      "quantidade": 5,
+      "resetTime": 1790463275929
+    },
+    "profissaoIndex": 1,
+    "trabalhosHoje": 0,
+    "dataTrabalho": "2026-9-27",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0
+  },
+  "183769420017759@lid": {
+    "jid": "183769420017759@lid",
+    "aliases": [
+      "5511937708290@s.whatsapp.net",
+      "551137708290@s.whatsapp.net",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 4,
+    "banco": 0,
+    "rg": "329-732",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 0,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-24",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-24",
+    "nivelCarreira": 1,
+    "progressoCarreira": 0,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 1,
+    "totalComandos": 0,
+    "nome": "Gabriel",
+    "profissaoIndex": 1,
+    "trabalhosHoje": 0,
+    "dataTrabalho": "2026-9-27",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0
+  },
+  "115080159088805@lid": {
+    "jid": "115080159088805@lid",
+    "aliases": [],
+    "carteira": 1,
+    "banco": 0,
+    "rg": "477-645",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 0,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-24",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-24",
+    "nivelCarreira": 1,
+    "progressoCarreira": 0,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 0,
+    "totalComandos": 0,
+    "nome": null
+  },
+  "5582996293633@s.whatsapp.net": {
+    "jid": "558296293633@s.whatsapp.net",
+    "aliases": [
+      "123454858727514@lid",
+      "120363424105051833@g.us",
+      "5582996293633@s.whatsapp.net",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 8067.8985473,
+    "banco": 5700,
+    "rg": "708-734",
+    "senha": "2026",
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 1000,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 1790576249162,
+        "diasConsecutivos": 1
+      },
+      "semanal": {
+        "ultimoUso": 1790307496099
+      },
+      "mensal": {
+        "ultimoUso": 1790307490957
+      }
+    },
+    "ultimoTrabalho": 1790629896102,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-28",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-28",
+    "nivelCarreira": 2,
+    "progressoCarreira": 1021,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 77,
+    "totalComandos": 28,
+    "nome": "☆Juan☆",
+    "mineracao": {
+      "quantidade": 1,
+      "resetTime": 1790523789375
+    },
+    "profissaoIndex": 6,
+    "trabalhosHoje": 3,
+    "dataTrabalho": "2026-9-28",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0,
+    "streakMensagem": 1,
+    "ultimaMensagemDia": "2026-9-28",
+    "grupos": {}
+  },
+  "5511940672490@s.whatsapp.net": {
+    "jid": "5511940672490@s.whatsapp.net",
+    "aliases": [
+      "551140672490@s.whatsapp.net",
+      "240733520973903@lid",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 3011,
+    "banco": 0,
+    "rg": "533-359",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 1790316856151,
+        "diasConsecutivos": 1
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 1790622354686,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-28",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-28",
+    "nivelCarreira": 1,
+    "progressoCarreira": 957,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 36,
+    "totalComandos": 18,
+    "nome": "Yuri",
+    "mineracao": {
+      "quantidade": 5,
+      "resetTime": 1790621987284
+    },
+    "profissaoIndex": 1,
+    "trabalhosHoje": 1,
+    "dataTrabalho": "2026-9-28",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0
+  },
+  "5511937096482@s.whatsapp.net": {
+    "jid": "5511937096482@s.whatsapp.net",
+    "aliases": [],
+    "carteira": 89,
+    "banco": 0,
+    "rg": "650-742",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 1790321255567,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-24",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-24",
+    "nivelCarreira": 1,
+    "progressoCarreira": 89,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 0,
+    "totalComandos": 0,
+    "nome": "Michel😎😯"
+  },
+  "5511941557196@s.whatsapp.net": {
+    "jid": "5511941557196@s.whatsapp.net",
+    "aliases": [],
+    "carteira": 5000,
+    "banco": 0,
+    "rg": "673-878",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 0,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-24",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-24",
+    "nivelCarreira": 1,
+    "progressoCarreira": 0,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 0,
+    "totalComandos": 0,
+    "nome": "Miguel"
+  },
+  "558291740552@s.whatsapp.net": {
+    "jid": "558291740552@s.whatsapp.net",
+    "aliases": [
+      "5582991740552@s.whatsapp.net",
+      "116286877126796@lid",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 2038,
+    "banco": 0,
+    "rg": "601-663",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 0,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-26",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-26",
+    "nivelCarreira": 1,
+    "progressoCarreira": 0,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 10,
+    "totalComandos": 4,
+    "nome": "𝙶𝚕𝚊𝚢𝚌𝚔.",
+    "profissaoIndex": 1,
+    "trabalhosHoje": 0,
+    "dataTrabalho": "2026-9-27",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 20,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 1791082800000
+  },
+  "120363426963817396@g.us": {
+    "jid": "558296293633@s.whatsapp.net",
+    "aliases": [
+      "123454858727514@lid",
+      "120363424105051833@g.us",
+      "5582996293633@s.whatsapp.net",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 8067.8985473,
+    "banco": 5700,
+    "rg": "708-734",
+    "senha": "2026",
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 1000,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 1790576249162,
+        "diasConsecutivos": 1
+      },
+      "semanal": {
+        "ultimoUso": 1790307496099
+      },
+      "mensal": {
+        "ultimoUso": 1790307490957
+      }
+    },
+    "ultimoTrabalho": 1790629896102,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-28",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-28",
+    "nivelCarreira": 2,
+    "progressoCarreira": 1021,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 77,
+    "totalComandos": 28,
+    "nome": "☆Juan☆",
+    "mineracao": {
+      "quantidade": 1,
+      "resetTime": 1790523789375
+    },
+    "profissaoIndex": 6,
+    "trabalhosHoje": 3,
+    "dataTrabalho": "2026-9-28",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0,
+    "streakMensagem": 1,
+    "ultimaMensagemDia": "2026-9-28",
+    "grupos": {}
+  },
+  "551140672490@s.whatsapp.net": {
+    "jid": "5511940672490@s.whatsapp.net",
+    "aliases": [
+      "551140672490@s.whatsapp.net",
+      "240733520973903@lid",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 3011,
+    "banco": 0,
+    "rg": "533-359",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 1790316856151,
+        "diasConsecutivos": 1
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 1790622354686,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-28",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-28",
+    "nivelCarreira": 1,
+    "progressoCarreira": 957,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 36,
+    "totalComandos": 18,
+    "nome": "Yuri",
+    "mineracao": {
+      "quantidade": 5,
+      "resetTime": 1790621987284
+    },
+    "profissaoIndex": 1,
+    "trabalhosHoje": 1,
+    "dataTrabalho": "2026-9-28",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0
+  },
+  "240733520973903@lid": {
+    "jid": "5511940672490@s.whatsapp.net",
+    "aliases": [
+      "551140672490@s.whatsapp.net",
+      "240733520973903@lid",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 3011,
+    "banco": 0,
+    "rg": "533-359",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 1790316856151,
+        "diasConsecutivos": 1
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 1790622354686,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-28",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-28",
+    "nivelCarreira": 1,
+    "progressoCarreira": 957,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 36,
+    "totalComandos": 18,
+    "nome": "Yuri",
+    "mineracao": {
+      "quantidade": 5,
+      "resetTime": 1790621987284
+    },
+    "profissaoIndex": 1,
+    "trabalhosHoje": 1,
+    "dataTrabalho": "2026-9-28",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0
+  },
+  "5582991740552@s.whatsapp.net": {
+    "jid": "558291740552@s.whatsapp.net",
+    "aliases": [
+      "5582991740552@s.whatsapp.net",
+      "116286877126796@lid",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 2038,
+    "banco": 0,
+    "rg": "601-663",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 0,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-26",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-26",
+    "nivelCarreira": 1,
+    "progressoCarreira": 0,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 10,
+    "totalComandos": 4,
+    "nome": "𝙶𝚕𝚊𝚢𝚌𝚔.",
+    "profissaoIndex": 1,
+    "trabalhosHoje": 0,
+    "dataTrabalho": "2026-9-27",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 20,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 1791082800000
+  },
+  "116286877126796@lid": {
+    "jid": "558291740552@s.whatsapp.net",
+    "aliases": [
+      "5582991740552@s.whatsapp.net",
+      "116286877126796@lid",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 2038,
+    "banco": 0,
+    "rg": "601-663",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 0,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-26",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-26",
+    "nivelCarreira": 1,
+    "progressoCarreira": 0,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 10,
+    "totalComandos": 4,
+    "nome": "𝙶𝚕𝚊𝚢𝚌𝚔.",
+    "profissaoIndex": 1,
+    "trabalhosHoje": 0,
+    "dataTrabalho": "2026-9-27",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 20,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 1791082800000
+  },
+  "5511937708290@s.whatsapp.net": {
+    "jid": "183769420017759@lid",
+    "aliases": [
+      "5511937708290@s.whatsapp.net",
+      "551137708290@s.whatsapp.net",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 4,
+    "banco": 0,
+    "rg": "329-732",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 0,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-24",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-24",
+    "nivelCarreira": 1,
+    "progressoCarreira": 0,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 1,
+    "totalComandos": 0,
+    "nome": "Gabriel",
+    "profissaoIndex": 1,
+    "trabalhosHoje": 0,
+    "dataTrabalho": "2026-9-27",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0
+  },
+  "551137708290@s.whatsapp.net": {
+    "jid": "183769420017759@lid",
+    "aliases": [
+      "5511937708290@s.whatsapp.net",
+      "551137708290@s.whatsapp.net",
+      "120363426963817396@g.us"
+    ],
+    "carteira": 4,
+    "banco": 0,
+    "rg": "329-732",
+    "senha": null,
+    "escudo": null,
+    "moedas": {
+      "BTC": 0,
+      "EUR": 0,
+      "USD": 0,
+      "XAU": 0,
+      "XAG": 0,
+      "ETH": 0,
+      "SOL": 0,
+      "XRP": 0
+    },
+    "recompensas": {
+      "diario": {
+        "ultimoUso": 0,
+        "diasConsecutivos": 0
+      },
+      "semanal": {
+        "ultimoUso": 0
+      },
+      "mensal": {
+        "ultimoUso": 0
+      }
+    },
+    "ultimoTrabalho": 0,
+    "roubosHoje": 0,
+    "dataRoubos": "2026-9-24",
+    "mineracoesHoje": 0,
+    "dataMineracao": "2026-9-24",
+    "nivelCarreira": 1,
+    "progressoCarreira": 0,
+    "dividaBanco": {
+      "valor": 0,
+      "dataEmprestimo": 0,
+      "prazo": 5,
+      "pago": true
+    },
+    "emprestimos": [],
+    "totalMensagens": 1,
+    "totalComandos": 0,
+    "nome": "Gabriel",
+    "profissaoIndex": 1,
+    "trabalhosHoje": 0,
+    "dataTrabalho": "2026-9-27",
+    "extraUsos": 2,
+    "extraReset": 0,
+    "horaExtraTotal": 0,
+    "horaExtraSemana": "2026-9-16",
+    "horaExtraBloqueadoAte": 0
+  }
+}
